@@ -1,4 +1,4 @@
-package com.example.rick.project1201_picasso;
+package ru.maxmorev.android.picassoinstafeed;
 
 public class ImageService {
 

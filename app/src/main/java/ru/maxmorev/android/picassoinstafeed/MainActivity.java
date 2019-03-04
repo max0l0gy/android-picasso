@@ -1,4 +1,4 @@
-package com.example.rick.project1201_picasso;
+package ru.maxmorev.android.picassoinstafeed;
 
 import android.Manifest;
 import android.content.Context;
@@ -11,12 +11,10 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.DisplayMetrics;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.Toast;
 
+import com.example.rick.project1201_picasso.R;
 import com.squareup.picasso.Picasso;
 
 public class MainActivity extends AppCompatActivity {
@@ -91,9 +89,9 @@ public class MainActivity extends AppCompatActivity {
         adapter.setOnItemClickListener(new ImagesAdapter.ClickListener() {
             @Override
             public void onItemClick(int position) {
-                final Intent intent = new Intent(MainActivity.this, OpenImageActivity2.class);
+                final Intent intent = new Intent(MainActivity.this, ImageDetailActivity.class);
                 // в качестве параметра [DetailActivity] передается URI выбранной картинки
-                intent.putExtra(OpenImageActivity2.NUMBER_ARGUMENT_KEY, position);
+                intent.putExtra(ImageDetailActivity.NUMBER_ARGUMENT_KEY, position);
                 startActivity(intent);
             }
 

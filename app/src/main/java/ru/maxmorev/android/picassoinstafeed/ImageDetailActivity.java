@@ -1,4 +1,4 @@
-package com.example.rick.project1201_picasso;
+package ru.maxmorev.android.picassoinstafeed;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,10 +8,13 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
+import com.example.rick.project1201_picasso.R;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 
-public class OpenImageActivity2 extends AppCompatActivity {
+import ru.maxmorev.android.picassoinstafeed.ImageService;
+
+public class ImageDetailActivity extends AppCompatActivity {
 
 
     public static final String NUMBER_ARGUMENT_KEY = "OpenImageActivity.NUMBER_ARGUMENT";
