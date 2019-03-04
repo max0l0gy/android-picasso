@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_size">450px</dimen>
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="icon_holder">26dp</dimen>
+    <dimen name="titeTextSize">15dp</dimen>
+</resources>
