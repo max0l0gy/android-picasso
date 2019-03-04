@@ -1,2 +1,2 @@
 # android-picasso
-instagram feed / Sketch in development
+instagram like feed / Sketch in development
